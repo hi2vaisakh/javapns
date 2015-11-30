@@ -34,16 +34,16 @@ public class Robots {
 				switch (posArray[2]) {
 
 				case north:
-					posArray[2] = "W";
+					posArray[2] = west;
 					break;
 				case south:
-					posArray[2] = "E";
+					posArray[2] = east;
 					break;
 				case east:
-					posArray[2] = "N";
+					posArray[2] = north;
 					break;
 				case west:
-					posArray[2] = "S";
+					posArray[2] = south;
 					break;
 				}
 				break;
@@ -52,16 +52,16 @@ public class Robots {
 				switch (posArray[2]) {
 
 				case north:
-					posArray[2] = "E";
+					posArray[2] = east;
 					break;
 				case south:
-					posArray[2] = "W";
+					posArray[2] = west;
 					break;
 				case east:
-					posArray[2] = "S";
+					posArray[2] = south;
 					break;
 				case west:
-					posArray[2] = "N";
+					posArray[2] = north;
 					break;
 				}
 				break;
